@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/10/2019, 11:04:01
+    Author     : Alumno
+*/
+
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+}
+
+#message p {
+    font-size: 10px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.valid:before {
+    position: relative;
+    content: "✔";
+}
+
+
+.invalid:before {
+    position: relative;
+    content: "✖";
+}
